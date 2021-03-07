@@ -5,6 +5,7 @@ public class Piece {
 	protected Position position;
 	private Board board;
 	
+	//Classe responsável pela criação da peça, inicialmente nula
 	public Piece(Board board) {
 		this.board = board;
 		position = null;
@@ -13,7 +14,4 @@ public class Piece {
 	protected Board getBoard() {
 		return board;
 	}
-
-	
-
 }

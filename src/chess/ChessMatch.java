@@ -6,10 +6,12 @@ public class ChessMatch {
 	
 	private Board board;
 	
+	//Classe responsável pela partida de Xadrez
 	public ChessMatch() {
 		board = new Board(8, 8);
 	}
 	
+	//retorna a matriz de peças da partida de Xadrez
 	public ChessPiece[][] getPieces(){
 		ChessPiece[][] mat = new ChessPiece[board.getRows()][board.getColumns()];
 		for (int i = 0; i < board.getRows(); i++) {
