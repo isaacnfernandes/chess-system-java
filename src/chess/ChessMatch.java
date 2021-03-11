@@ -27,6 +27,7 @@ public class ChessMatch {
 		return mat;
     }
 	
+	//Método responsável por retornar uma position capturada
 	public ChessPiece performChessMove(ChessPosition sourcePosition, ChessPosition targetPosition) {
 		Position source = sourcePosition.toPosition();
 		Position target = targetPosition.toPosition();
